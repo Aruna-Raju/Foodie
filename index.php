@@ -80,7 +80,7 @@
   </head>
   <body  data-spy="scroll" data-target=".navbar" data-offset="50" style="background: url('image/bg_4.jpg') no-repeat fixed; overflow-x: hidden;">
     
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar" style="background-color:red">
       <div class="container">
         <a class="navbar-brand" href="index.php"><img class="img-responsive" src="image/logo.jpeg" width="75px" height="65px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
