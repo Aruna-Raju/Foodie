@@ -1,4 +1,4 @@
 # FOODIE 
 
 
-http://foodieapponline.com
+http://foodieapponline.com/Foodie
