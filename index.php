@@ -3,9 +3,9 @@
   <head>
     <title>Foodie</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0 shrink-to-fit=no, user-scalable=0" charset="utf-8">
     <link rel="icon" href="image/logo.jpeg" type="icon">
-    
+    <meta name="theme-color" content="#404044">
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 
@@ -78,10 +78,10 @@
 
 	</style>
   </head>
-  <body  data-spy="scroll" data-target=".navbar" data-offset="50" style="background: url('image/bg_4.jpg') no-repeat fixed; overflow-x: hidden;">
+  <body  data-spy="scroll" data-target=".navbar" data-offset="50" style="background: url('image/bg_4.jpg'); overflow-x: hidden; width:100%">
     
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar" >
-      <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+      <div class="container-fluid">
         <a class="navbar-brand" href="index.php"><img class="img-responsive" src="image/logo.jpeg" width="75px" height="65px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="oi oi-menu"></span> Menu
@@ -93,7 +93,7 @@
             <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
             <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
             <li class="nav-item"><a href="#restaurants" class="nav-link">Our Restaurants</a></li>
-            <!--<li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>-->
+            <li class="nav-item"><a target="_blank" href="privacy_policy.html" class="nav-link">Privacy Policy</a></li>
             <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
           </ul>
         </div>
@@ -105,7 +105,7 @@
       <div class="slider-item" style="background-image: url('image/image2.jpg');">
         <div class="overlay"></div>
         <div class="container">
-          <div class="row slider-text align-items-center justify-content-center text-center">
+          <div class="row mx-0 slider-text align-items-center justify-content-center text-center">
             <div class="col-md-10 col-sm-12 ftco-animate">
               <h1 class="mb-3">Order Food From Your Favourite Restaurant</h1>
               <p><a href="#restaurants" class="btn btn-primary btn-outline-white px-5 py-3">See the Restaurant menu's here</a></p>
@@ -117,7 +117,7 @@
       <div class="slider-item" style="background-image: url('image/image3.jpeg');">
         <div class="overlay"></div>
         <div class="container">
-          <div class="row slider-text align-items-center justify-content-center text-center">
+          <div class="row mx-0 slider-text align-items-center justify-content-center text-center">
             <div class="col-md-10 col-sm-12 ftco-animate">
               <h1 class="mb-3">Taste a Delicious Food</h1>
               <p><a href="#restaurants" class="btn btn-primary btn-outline-white px-5 py-3">See the Restaurant menu's here</a></p>
@@ -129,7 +129,7 @@
       <div class="slider-item" style="background-image: url('image/image4.jpeg');">
         <div class="overlay"></div>
         <div class="container">
-          <div class="row slider-text align-items-center justify-content-center text-center">
+          <div class="row mx-0 slider-text align-items-center justify-content-center text-center">
             <div class="col-md-10 col-sm-12 ftco-animate">
               <h1 class="mb-3">Exquisite Dishes</h1>
               <p><a href="#restaurants" class="btn btn-primary btn-outline-white px-5 py-3">See the Restaurant menu's here</a></p>
@@ -141,7 +141,7 @@
       <div class="slider-item" style="background-image: url('image/image5.jpeg');">
         <div class="overlay"></div>
         <div class="container">
-          <div class="row slider-text align-items-center justify-content-center text-center">
+          <div class="row mx-0 slider-text align-items-center justify-content-center text-center">
             <div class="col-md-10 col-sm-12 ftco-animate">
               <h1 class="mb-3">Hygienic Foods</h1>
               <p><a href="#restaurants" class="btn btn-primary btn-outline-white px-5 py-3">See the Restaurant menu's here</a></p>
@@ -153,7 +153,7 @@
       <div class="slider-item" style="background-image: url('image/image6.jpeg');">
         <div class="overlay"></div>
         <div class="container">
-          <div class="row slider-text align-items-center justify-content-center text-center">
+          <div class="row mx-0 slider-text align-items-center justify-content-center text-center">
             <div class="col-md-10 col-sm-12 ftco-animate">
               <h1 class="mb-3">Special and Fresh Foods</h1>
               <p><a href="#restaurants" class="btn btn-primary btn-outline-white px-5 py-3">See the Restaurant menu's here</a></p>
@@ -173,8 +173,8 @@
       <div class="head">
         <h3 class="container line"><span class="subheading">Foodie App</span></h3>
       </div>
-      <div class="container d-flex">
-        <div class="section-3-blocks-wrapper row">
+      <div class="container-fluid d-flex justify-content-center">
+        <div class="section-3-blocks-wrapper row" style="width: 100%;">
           
           <div class="text col-lg-6 ftco-animate">
             <div class="text-inner align-self-start">
@@ -221,25 +221,22 @@
 
 <br>
 <br>
-    <section class="ftco-section ftco-services" id="services">
+    <section class="ftco-section ftco-services col-lg-12" id="services">
       <div class="head">
         <h3 class="container line"><span class="subheading">Services</span></h3>
       </div>
       <div class="overlay"></div>
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
+      <div class="container-fluid">
+        <!-- <div class="row mx-0 justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate text-center">
 
-            <!--<h2 class="mb-4">Our Services</h2>-->
-
-            <!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>-->
           </div>
-        </div>
-        <div class="row">
+        </div> -->
+        <div class="row mx-0">
           <div class="col-md-6 ftco-animate">
             <div class="media d-block text-center block-6 services">
               <h3 class="heading"><u>Dine-In</u></h3>
-              <div class="row col-md-12">
+              <div class="row mx-0 col-md-12">
                 <div class="icon d-flex justify-content-center align-items-center mb-5">
                   <span><img src="image/dine_in_1.jpeg" width="150" height="125"></span>
                 </div>
@@ -259,7 +256,7 @@
           <div class="col-md-6 ftco-animate">
             <div class="media d-block text-center block-6 services">
               <h3 class="heading"><u>Take-Away</u></h3>
-              <div class="row col-md-12">
+              <div class="row mx-0 col-md-12">
                 <div class="icon d-flex justify-content-center align-items-center mb-5">
                   <span><img class="img-circle" src="image/take_away_1.jpg" width="150" height="125"></span>
                 </div>
@@ -278,11 +275,11 @@
           </div>
           
         </div>
-        <div class="row">
+        <div class="row mx-0">
           <div class="col-md-6 ftco-animate">
             <div class="media d-block text-center block-6 services">
               <h3 class="heading"><u>Remote-Order</u></h3>
-              <div class="row col-md-12">
+              <div class="row mx-0 col-md-12">
                 <div class="icon d-flex justify-content-center align-items-center mb-5">
                   <span><img class="img-rounded" src="image/remoteorder-1.jpg" width="150" height="125"></span>
                 </div>
@@ -302,7 +299,7 @@
           <div class="col-md-6 ftco-animate">
             <div class="media d-block text-center block-6 services">
               <h3 class="heading"><u>Home-Delivery</u></h3>
-              <div class="row col-md-12">
+              <div class="row mx-0 col-md-12">
                 <div class="icon d-flex justify-content-center align-items-center mb-5">
                   <span><img class="img-rounded" src="image/remoteorder-1.jpg" width="150" height="125"></span>
                 </div>
@@ -321,11 +318,11 @@
             </div>      
           </div>
 
-          <div class="row">
+          <div class="row mx-0">
             <div class="col-md-6 ftco-animate">
               <div class="media d-block text-center block-6 services">
                 <h3 class="heading"><u>Drive Thru</u></h3>
-               <div class="row col-md-12">
+               <div class="row mx-0 col-md-12">
                   <div class="icon d-flex justify-content-center align-items-center mb-5">
                     <span><img class="img-circle" src="image/drive_thru_2.png" width="150" height="125"></span>
                   </div>
@@ -344,7 +341,7 @@
             <div class="col-md-6 ftco-animate">
               <div class="media d-block text-center block-6 services">
                 <h3 class="heading"><u>Food Court</u></h3>
-               <div class="row col-md-12">
+               <div class="row mx-0 col-md-12">
                   <div class="icon d-flex justify-content-center align-items-center mb-5">
                     <span><img class="img-circle" src="image/food_court_3.jpg" width="150" height="125"></span>
                   </div>
@@ -373,10 +370,10 @@
         <h3 class="container line"><span class="subheading">Key Features</span></h3>
       </div>
 
-      <div class="container features_content">
-        <div class="col-md-12 col-xs-12" style="color: #fff;">
-          <div class="row">
-            <div class="col-md-4 col-xs-12">
+      <div class="container-fluid features_content">
+        <div class="col-md-12 col-12" style="color: #fff;">
+          <div class="row mx-0">
+            <div class="col-md-4 col-12">
               <!--<div class="content-left">
                 <img src="image/kot_1.png" width="50" height="50">
               </div>
@@ -384,60 +381,60 @@
                 <h4>Kitchen Order System</h4>
                 <p>Clean and informative Kitchen Order System will increase productivity of our kitchen, it's also reduces errors.</p>
             </div>
-            <div class="col-md-4 col-xs-12">
+            <div class="col-md-4 col-12">
               <h4>Tablet Ordering</h4>
               <p>When our waiter took order with tablet, it does not only seems premium but also save floor time of staff that can be used towards better guest experience.</p>
             </div>
-            <div class="col-md-4 col-xs-12">
+            <div class="col-md-4 col-12">
               <h4>Mobile Ordering</h4>
               <p>With Mobile Ordering application customer can order, KOTs will be generated, waiter or manager can see that order and add items on that order. It brings more time to staff for better guest service.</p>
             </div>
           </div>
           <br>
-          <div class="row">
-            <!--<div class="col-md-4 col-xs-12">
+          <div class="row mx-0">
+            <!--<div class="col-md-4 col-12">
               <h4>Fast Billing</h4>
               <p>Swift turn around is a key factor to success for any restaurant and our fast billing method complements this thought with multiple payment options.</p>
             </div>-->
-            <div class="col-md-4 col-xs-12">
+            <div class="col-md-4 col-12">
               <h4>Table management</h4>
               <p>Arrangement of table can be set on screen as on floor by drag and drop for better visual understanding.</p>
             </div>
-            <div class="col-md-4 col-xs-12">
+            <div class="col-md-4 col-12">
               <h4>Fast and secure</h4>
               <p>We know the value of consistence and security. With industry level security our cloud are ready to bring you fast and secure experience.</p>
             </div>
-            <div class="col-md-4 col-xs-12">
+            <div class="col-md-4 col-12">
               <h4>Stock Management</h4>
               <p>With easy purchase, sales, garbage and transfer entries all stock can be managed efficiently using various stock reports.</p>
             </div>
           </div>
           <br>
-          <div class="row">
-            <div class="col-md-4 col-xs-12">
+          <div class="row mx-0">
+            <div class="col-md-4 col-12">
               <h4>Multiple restaurant with multiple kitchen</h4>
               <p>Facilities with more than one kitchen and/or restaurant can manage all kitchen and restaurant from same screen. Cross kitchen ordering can be done when needed.</p>
             </div>
-            <div class="col-md-4 col-xs-12">
+            <div class="col-md-4 col-12">
               <h4>Advanced level of access layer</h4>
               <p>Multiple level of access allows to manage authority and decide responsibility, which leads to less errors.</p>
             </div>
-            <div class="col-md-4 col-xs-12">
+            <div class="col-md-4 col-12">
               <h4>Accounting</h4>
               <p>Full featured accounting is integrated with our software. Track your accounts or make adjustments, all at one place.</p>
             </div>
           </div>
           <br>
-          <div class="row">
-            <div class="col-md-4 col-xs-12">
+          <div class="row mx-0">
+            <div class="col-md-4 col-12">
               <h4>Reservation by application</h4>
               <p>One can also reserve a table from mobile using our application for your restaurant.</p>
             </div>
-            <div class="col-md-4 col-xs-12">
+            <div class="col-md-4 col-12">
               <h4>Customers Display Screen</h4>
               <p>Waiting customers can see their order status on the customers display screen. when the customers order is ready customers can go and pick the food, inself service Restaurants.</p>
             </div>
-            <div class="col-md-4 col-xs-12">
+            <div class="col-md-4 col-12">
               <h4>Cloud POS</h4>
               <p>Our cloud POS helps to select items visually by category and sub-category support multiple payment option like cash, credit card, debit card and e-wallets.</p>
             </div>
@@ -455,122 +452,122 @@
 
         
         <section class="hidden-xs" id="demos" style="background:#171a29;">
-	<div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12"><br><br><br>
-          <div class="owl-carousel owl-theme">
-            <div class="item">
-              <h4><img src="image/1.png " class="img-responsive" width="200px" height="200px"></h4>
+        	  <div class="container-fluid">
+              <div class="row mx-0">
+                <div class="col-sm-12"><br><br><br>
+                  <div class="owl-carousel owl-theme">
+                    <div class="item">
+                      <h4><img src="image/1.png " class="img-responsive" width="200px" height="200px"></h4>
+                    </div>
+                    <div class="item">
+                      <h4><img src="image/2.png " class="img-responsive" width="200px" height="200px"></h4>
+                    </div>
+                    <div class="item">
+                      <h4><img src="image/3.png " class="img-responsive" width="200px" height="200px"></h4>
+                    </div>
+                    <div class="item">
+                      <h4><img src="image/4.png " class="img-responsive" width="200px" height="200px"></h4>
+                    </div>
+                    <div class="item">
+                      <h4><img src="image/5.png " class="img-responsive" width="200px" height="200px"></h4>
+                    </div>
+                    <div class="item">
+                      <h4><img src="image/6.png " class="img-responsive" width="200px" height="200px"></h4>
+                    </div>
+                    <div class="item">
+                      <h4><img src="image/7.png " class="img-responsive" width="200px" height="200px"></h4>
+                    </div>
+                    <div class="item">
+                      <h4><img src="image/8.png " class="img-responsive" width="200px" height="200px"></h4>
+                    </div>
+                    <div class="item">
+                      <h4><img src="image/2.png " class="img-responsive" width="200px" height="200px"></h4>
+                    </div>
+                    <div class="item">
+                      <h4><img src="image/5.png " class="img-responsive" width="200px" height="200px"></h4>
+                    </div>
+                    <div class="item">
+                      <h4><img src="image/7.png " class="img-responsive" width="200px" height="200px"></h4>
+                    </div>
+                    <div class="item">
+                      <h4><img src="image/8.png " class="img-responsive" width="200px" height="200px"></h4>
+                    </div>
+                  </div> 
+                  
+                  <script>
+                    $(document).ready(function() {
+                      var owl = $('.owl-carousel');
+                      owl.owlCarousel({
+                        items: 4,
+                        loop: true,
+                        margin: 10,
+                        autoplay: true,
+                        autoplayTimeout: 3000,
+                        autoplayHoverPause: true
+                      });
+                      $('.play').on('click', function() {
+                        owl.trigger('play.owl.autoplay', [1000])
+                      })
+                      $('.stop').on('click', function() {
+                        owl.trigger('stop.owl.autoplay')
+                      })
+                    })
+                  </script>
+                </div><br><br>
+              </div>
             </div>
-            <div class="item">
-              <h4><img src="image/2.png " class="img-responsive" width="200px" height="200px"></h4>
-            </div>
-            <div class="item">
-              <h4><img src="image/3.png " class="img-responsive" width="200px" height="200px"></h4>
-            </div>
-            <div class="item">
-              <h4><img src="image/4.png " class="img-responsive" width="200px" height="200px"></h4>
-            </div>
-            <div class="item">
-              <h4><img src="image/5.png " class="img-responsive" width="200px" height="200px"></h4>
-            </div>
-            <div class="item">
-              <h4><img src="image/6.png " class="img-responsive" width="200px" height="200px"></h4>
-            </div>
-            <div class="item">
-              <h4><img src="image/7.png " class="img-responsive" width="200px" height="200px"></h4>
-            </div>
-            <div class="item">
-              <h4><img src="image/8.png " class="img-responsive" width="200px" height="200px"></h4>
-            </div>
-            <div class="item">
-              <h4><img src="image/2.png " class="img-responsive" width="200px" height="200px"></h4>
-            </div>
-            <div class="item">
-              <h4><img src="image/5.png " class="img-responsive" width="200px" height="200px"></h4>
-            </div>
-            <div class="item">
-              <h4><img src="image/7.png " class="img-responsive" width="200px" height="200px"></h4>
-            </div>
-            <div class="item">
-              <h4><img src="image/8.png " class="img-responsive" width="200px" height="200px"></h4>
-            </div>
-          </div> 
-          
-          <script>
-            $(document).ready(function() {
-              var owl = $('.owl-carousel');
-              owl.owlCarousel({
-                items: 4,
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                autoplayTimeout: 3000,
-                autoplayHoverPause: true
-              });
-              $('.play').on('click', function() {
-                owl.trigger('play.owl.autoplay', [1000])
-              })
-              $('.stop').on('click', function() {
-                owl.trigger('stop.owl.autoplay')
-              })
-            })
-          </script>
-        </div><br><br>
-      </div>
-      </div>
-    </section>
+        </section>
   
 
     
     <section class="recent_bloger_area" id="restaurants">
-	  <div class="" >
-      <div class="head" >
-        <h3 class="container line"><span class="subheading">Our Restaurants</span></h3>
-      </div>
-            <div class="container">
-                <div class="row">
-				   <?php
-			   include ("conn.php");
-			   mysqli_set_charset($conn,'utf8');
-			   $sql = "select * from foodie_restaurants";
-			   $res = mysqli_query($conn,$sql);
-			   while($row = mysqli_fetch_object($res))
-			   {
-				?>
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xs-12" id="restau_1">
-                        <div class="recent_blog_item">
-                            <div class="blog_img">
-                                <?php echo "<img src='image/$row->image' class='img-thumbnail img-responsive'  id='focus' alt='food'>"?>
-                            </div>
-                            <div class="recent_blog_text">
-                                <div class="recent_blog_text_inner">
-                                    <h6><?php echo "$row->name";?></h6>
-                                    <p>Get the latest prices and menu of  Restaurant in Doha Qatar</p>
-                                      <span><a href="menu-1.php?id=<?php echo"$row->id"?>" class="btn btn-primary btn-outline-primary p-3">Menu's Here</a></span>
-                                </div>
-                            </div>
-                        </div>
+    	  <div class="" >
+          <div class="head" >
+            <h3 class="container line"><span class="subheading">Our Restaurants</span></h3>
+          </div>
+            <div class="container-fluid">
+                <div class="row mx-0">
+          				   <?php
+              			   include ("conn.php");
+              			   mysqli_set_charset($conn,'utf8');
+              			   $sql = "select * from foodie_restaurants";
+              			   $res = mysqli_query($conn,$sql);
+              			   while($row = mysqli_fetch_object($res))
+              			   {
+              				?>
+                                  <div class="col-sm-6 col-md-6 col-lg-4 col-xs-12" id="restau_1">
+                                      <div class="recent_blog_item">
+                                          <div class="blog_img">
+                                              <?php echo "<img src='image/$row->image' class='img-thumbnail img-responsive'  id='focus' alt='food'>"?>
+                                          </div>
+                                          <div class="recent_blog_text">
+                                              <div class="recent_blog_text_inner">
+                                                  <h6><?php echo "$row->name";?></h6>
+                                                  <p>Get the latest prices and menu of  Restaurant in Doha Qatar</p>
+                                                    <span><a href="menu-1.php?id=<?php echo"$row->id"?>" class="btn btn-primary btn-outline-primary p-3">Menu's Here</a></span>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+              					  <?php
+              			   }
+              			 ?>
                     </div>
-					  <?php
-			   }
-			 ?>
-                </div>
-				<div class="clearboth"></div>
+          				<div class="clearboth"></div>
             </div>
 
 
           </div>  
-    </section>
+      </section>
     <br>
         <!--================End Restaurant Area =================-->
 
- <section class="recent_bloger_area" id="demo" style="background: lightgray;"><br>
+    <section class="recent_bloger_area" id="demo" style="background: lightgray;"><br>
       <div class="head" >
         <h3 class="container line"><span class="subheading">Request For Demo</span></h3>
       </div>
-            <div class="container">
-                <div class="row">
+            <div class="container-fluid">
+                <div class="row mx-0">
                    <div class="col-md-3 col-sm-3 col-xs-12"></div>
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="form contact-form">
@@ -597,7 +594,7 @@
               </form>
             </div>
           </div>
-      <div class="col-md-3 col-sm-3 col-xs-12"></div>
+        <div class="col-md-3 col-sm-3 col-xs-12"></div>
                 </div>
         <div class="clearboth"></div>
             </div>
@@ -607,24 +604,24 @@
 
     <footer class="ftco-footer ftco-bg-dark ftco-section" id="contact">
       <div class="container">
-        <div class="row mb-5 contact">
-            <div class="col-md-4">
+        <div class="row mx-0 mb-5 contact">
+            <div class="col-md-3 mx-auto">
                 <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Navigation</h2>
-             
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a href="#home" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
-            <li class="nav-item"><a href="#restaurants" class="nav-link">Our Restaurants</a></li>
-            <!--<li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>-->
-            <!--<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>-->
-          </ul>
+                  <h2 class="ftco-heading-2">Navigation</h2>
+                 
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item active"><a href="#home" class="nav-link">Home</a></li>
+                      <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                      <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                      <li class="nav-item"><a href="#restaurants" class="nav-link">Our Restaurants</a></li>
+                      <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                      <li class="nav-item"><a href="#gallery" class="nav-link">Privacy Policy</a></li>
+                    </ul>
+                </div>
             </div>
-            </div>
-            <div class="col-md-8">
+            <div class="col-md-9">
               <center><h2 class="cont_us">Contact Us</h2></center>
-              <div class="row">
+              <div class="row mx-0">
                 <div class="col-md-6">
                     <div class="ftco-footer-widget mb-4">
                     <ul class="list-unstyled">
